@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    
+    <loopj.android.image.SmartImageView
+        android:id="@+id/iv"
+        android:layout_width="90dp" 
+		android:layout_height="68dp"
+		android:src="@drawable/ic_launcher"
+		android:layout_centerVertical="true" />
+    
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="这是标题，上海千峰安卓1608期毕业平均薪资15K"
+        android:layout_toRightOf="@id/iv"
+        android:paddingTop="2dp"
+        android:textSize="20sp"
+        android:textColor="@android:color/darker_gray" 
+        android:singleLine="true" />
+    
+    <TextView
+        android:id="@+id/tv_detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="这是正文内容，千峰校区上海的安卓1608期毕业班中，卧虎藏龙。毕业一周就业率80%，平均薪资15K."
+        android:layout_toRightOf="@id/iv"
+        android:layout_below="@id/tv_title"
+        android:paddingTop="2dp"
+        android:textSize="14sp"
+        android:textColor="@android:color/darker_gray"
+        android:lines="2"
+         />
+    
+   	 <TextView
+	      android:id="@+id/tv_discuss"
+	      android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="独家"
+          android:textColor="@android:color/darker_gray"
+          android:textSize="12sp"
+          android:layout_toRightOf="@id/iv"
+          android:layout_below="@id/tv_detail"
+          android:paddingTop="2dp"
+          android:paddingBottom="2dp"
+	       />
+   
+	  <TextView
+	      android:id="@+id/tv_comment"
+	      android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="2016.3.25"
+          android:textColor="@android:color/darker_gray"
+          android:textSize="12sp"
+          android:layout_alignParentRight="true"
+          android:layout_below="@id/tv_detail"
+          android:paddingTop="2dp"
+          android:paddingBottom="2dp"
+	       />
+
+</RelativeLayout>

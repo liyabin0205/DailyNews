@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/back">
+
+    <TextView
+        android:id="@+id/id_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="15dp"
+        android:text="日期"
+        android:textSize="25sp"
+        android:textColor="#ffffff"/>
+
+    <TextView
+        android:id="@+id/id_currentCity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="30dp"
+        android:text="城市"
+        android:textSize="35sp"
+        android:textColor="#ffffff"/>
+
+    <!--<loopj.android.image.SmartImageView
+        android:id="@+id/iv_weather"
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        android:layout_marginTop="90dp"
+        android:layout_marginLeft="40dp"
+        android:src="@mipmap/yintian" />-->
+    <ImageView
+        android:id="@+id/iv_weather"
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        android:layout_marginTop="90dp"
+        android:layout_marginLeft="40dp"
+        android:src="@mipmap/yintian" />
+
+    <TextView
+        android:id="@+id/id_pm25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="40dp"
+        android:text="100"
+        android:textSize="70sp"
+        android:textColor="#ffffff"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="280dp"
+        android:layout_toRightOf="@id/id_pm25"
+        android:text="PM"
+        android:textSize="25sp"
+        android:textColor="#ffffff"/>
+
+
+    <TextView
+        android:id="@+id/id_weather"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="50dp"
+        android:text="多云"
+        android:textSize="28sp"
+        android:textColor="#ffffff"/>
+
+    <TextView
+        android:id="@+id/id_temperature"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="340dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="50dp"
+        android:text="35 ~ 27℃"
+        android:textSize="28sp"
+        android:textColor="#FFFFFF"/>
+
+    <TextView
+        android:id="@+id/id_wind"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="380dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="50dp"
+        android:text="东北风微风"
+        android:textSize="25sp"
+        android:textColor="#ffffff"/>
+
+    <TextView
+        android:id="@+id/id_titp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="440dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="20dp"
+        android:text="穿衣指数"
+        android:textSize="18sp"
+        android:textColor="#ffffff"/>
+
+    <TextView
+        android:id="@+id/id_des"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="470dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="天气炎热，建议着短衫、短裙、短裤、薄型T恤衫等清凉夏季服装。"
+        android:textSize="16sp"
+        android:textColor="#ffffff"/>
+
+</RelativeLayout>

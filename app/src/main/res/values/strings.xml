@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">每日头条</string>
+    <string name="action_settings">Settings</string>
+    <string name="app">新闻</string>
+    <string name="voice">图片</string>
+    <string name="study">话题</string>
+</resources>
